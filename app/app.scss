@@ -19,3 +19,74 @@
   font-family: 'Font Awesome 5 Free', 'fa-regular-400';
   font-weight: 400;
 }
+
+.page {
+  background-color: #f7f7f7;
+}
+
+.container{
+  margin-top: 0;
+}
+
+.content {
+  background-color: #fff;
+  padding: 20;
+  font-size: 20;
+}
+
+.action-bar {
+  background-color: #f7f7f7;
+  border-width: 0;
+  margin-bottom: 0;
+}
+
+.action-bar Label {
+  font-weight: bold;
+  opacity: 0;
+}
+
+.header {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -16;
+  margin-right: -16;
+  padding-top: 8;
+  padding-bottom: 8;
+  padding-left: 16;
+  padding-right: 16;
+  border-bottom-width: 1;
+  border-bottom-color: rgba(0,0,0,.20);
+}
+
+.header Label {
+  font-size: 36;
+  font-weight: bold;
+  margin-left: 20;
+}
+
+.description-label {
+  margin-bottom: 16;
+  line-height: 3;
+  color: rgba(0,0,0,.87);
+}
+
+.hidden {
+  animation-name: show;
+  animation-duration: 0.2;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+}
+
+.visible {
+  animation-name: show;
+  animation-duration: 0.2;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  } to {
+      opacity: 1;
+    }
+}

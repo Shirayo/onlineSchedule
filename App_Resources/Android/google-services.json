@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1013654531270",
+    "project_id": "onlineschedule-fd2fa",
+    "storage_bucket": "onlineschedule-fd2fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013654531270:android:fb2c28e3dfe61082febbc7",
+        "android_client_info": {
+          "package_name": "org.nativescript.onlineschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013654531270-jghko62f6vk5ckjb5kqtj3a3mq27v222.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWWffRuGk3KnyMkaK_g68CMvjWGOI3bo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013654531270-jghko62f6vk5ckjb5kqtj3a3mq27v222.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1013654531270-bsd3hdajlu8q70d0k9ee3aut9jk20bmt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.nativescript.onlineschedule"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
